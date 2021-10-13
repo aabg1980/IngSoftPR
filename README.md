@@ -14,4 +14,6 @@ William Daniel Martinez Oviedo
 
 Profesor Andres Barrera
 
+Publicando la version 1.0.0
+
 
