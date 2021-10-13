@@ -8,7 +8,7 @@ Angela Maria Ospina
 Sebastian Martinez
 Jose Alejandro Lopez
 Mauren Rivera Bautista
-Juan Felipe Arias
+Juan Felipe Arias Castillo
 William Daniel Martinez Oviedo
 
 
