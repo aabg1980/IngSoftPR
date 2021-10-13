@@ -8,12 +8,14 @@ Angela Maria Ospina
 Sebastian Martinez
 Jose Alejandro Lopez
 Mauren Rivera Bautista
-Juan Felipe Arias
+Juan Felipe Arias Castillo
 William Daniel Martinez Oviedo
+
 
 
 Profesor Andres Barrera
 
 Publicando la version 1.0.0
+Publicando la version 1.0.1
 
 
