@@ -10,7 +10,7 @@ Jose Alejandro López
 Mauren Rivera Bautista
 Juan Felipe Arias Castillo
 William Daniel Martínez Oviedo
-
+Jesús David Traslaviña
 
 
 Profesor Andrés Barrera
