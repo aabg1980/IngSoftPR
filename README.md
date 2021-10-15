@@ -3,17 +3,17 @@
 Proyecto de Ingenieria de software
 
 Integrantes:
-Cristian Benitez
-Angela Maria Ospina
-Sebastian Martinez
-Jose Alejandro Lopez
+Cristian Benítez
+Angela María Ospina
+Sebastian Martínez
+Jose Alejandro López
 Mauren Rivera Bautista
 Juan Felipe Arias Castillo
-William Daniel Martinez Oviedo
+William Daniel Martínez Oviedo
 
 
 
-Profesor Andres Barrera
+Profesor Andrés Barrera
 
 Publicando la version 1.0.0
 Publicando la version 1.0.1
