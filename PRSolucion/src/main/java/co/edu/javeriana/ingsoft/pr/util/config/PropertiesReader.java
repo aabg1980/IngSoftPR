@@ -31,4 +31,8 @@ public class PropertiesReader {
     {
         return (String) properties.get("path.file");
     }
+    public String getFilePathM()
+    {
+        return (String) properties.get("path.file2");
+    }
 }

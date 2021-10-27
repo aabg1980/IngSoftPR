@@ -1,5 +1,6 @@
 package co.edu.javeriana.ingsoft.pr.capas.peristencia.csv;
 
+import co.edu.javeriana.ingsoft.pr.core.modelo.Medio;
 import co.edu.javeriana.ingsoft.pr.core.modelo.Periodista;
 
 import java.io.BufferedReader;
@@ -44,5 +45,12 @@ public class HelperCSV {
         p.setFechaNacimiento(new SimpleDateFormat(FORMATO_FECHA).parse(registroCSV[3]));
         p.setNumeroSeguidores(Long.parseLong(registroCSV[4]));
         return p;
+    }
+
+    public Medio crearMedioDeCSV(String[] registroCSV) throws ParseException {
+        Medio m = new Medio();
+        m.setAtributo1 (registroCSV[0]);
+        m.setAtributo2 (registroCSV[1]);
+        return m;
     }
 }
