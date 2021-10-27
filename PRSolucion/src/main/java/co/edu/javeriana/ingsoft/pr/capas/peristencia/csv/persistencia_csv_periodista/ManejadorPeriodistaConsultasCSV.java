@@ -1,5 +1,7 @@
-package co.edu.javeriana.ingsoft.pr.capas.peristencia.csv;
+package co.edu.javeriana.ingsoft.pr.capas.peristencia.csv.persistencia_csv_periodista;
 
+import co.edu.javeriana.ingsoft.pr.capas.peristencia.csv.persistencia_csv_periodista.CacheManagerSingleton;
+import co.edu.javeriana.ingsoft.pr.capas.peristencia.csv.persistencia_csv_periodista.HelperCSV;
 import co.edu.javeriana.ingsoft.pr.core.modelo.Periodista;
 import co.edu.javeriana.ingsoft.pr.interfaces.capas.persistencia.IPersistenciaPeriodistasConsultas;
 import co.edu.javeriana.ingsoft.pr.util.config.PropertiesReader;
