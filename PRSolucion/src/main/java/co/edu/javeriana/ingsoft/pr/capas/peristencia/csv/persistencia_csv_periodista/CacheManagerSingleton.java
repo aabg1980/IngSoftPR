@@ -1,4 +1,4 @@
-package co.edu.javeriana.ingsoft.pr.capas.peristencia.csv;
+package co.edu.javeriana.ingsoft.pr.capas.peristencia.csv.persistencia_csv_periodista;
 
 import co.edu.javeriana.ingsoft.pr.core.modelo.Periodista;
 
