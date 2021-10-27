@@ -12,6 +12,7 @@ Jesús David Traslaviña
 Juan Felipe Arias Castillo
 William Daniel Martínez Oviedo
 Sebastian Camilo Hernando Murcia Sierra
+David Alfonso Anteliz Bonilla
 
 
 
