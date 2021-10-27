@@ -4,7 +4,7 @@ Proyecto de Ingenieria de software
 
 Integrantes:
 Cristian Benítez
-Sebastian Martínez
+Sebastian Martínez V
 Angela María Ospina
 Jose Alejandro López
 Mauren Rivera Bautista
