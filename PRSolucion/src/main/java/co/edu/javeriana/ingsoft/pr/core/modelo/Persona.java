@@ -46,6 +46,15 @@ public class Persona implements Serializable {
                 
     }
 
+    public Persona(String tipoDocumento, String numeroDocumento, String nombres, String apellidos, Date fechaNacimiento)
+    {
+        this.tipoDocumento = tipoDocumento;
+        this.numeroDocumento = numeroDocumento;
+        this.nombres = nombres;
+        this.apellidos = apellidos;
+        this.fechaNacimiento = fechaNacimiento;
+    }
+
     public String getNombres() {
         return nombres;
     }

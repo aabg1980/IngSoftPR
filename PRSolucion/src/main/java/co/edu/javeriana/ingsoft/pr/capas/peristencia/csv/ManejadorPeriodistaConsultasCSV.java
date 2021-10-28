@@ -15,14 +15,12 @@ public class ManejadorPeriodistaConsultasCSV implements IPersistenciaPeriodistas
     CacheManagerSingleton cache;
 
 
-
     @Override
     public List<Periodista> consultarListaPeriodistas() {
         cache = CacheManagerSingleton.getInstance();
         if(cache.getCachePeriodistas().size()==0)
         {
             long timeInicial = System.currentTimeMillis();
-
             cache.cargarCachePeriodistas(cargarDesdeArchivo());
             long timeFinal = System.currentTimeMillis();
 
@@ -30,7 +28,6 @@ public class ManejadorPeriodistaConsultasCSV implements IPersistenciaPeriodistas
         }
         return cache.getCachePeriodistas();
     }
-
 
 
     private List<Periodista> cargarDesdeArchivo()

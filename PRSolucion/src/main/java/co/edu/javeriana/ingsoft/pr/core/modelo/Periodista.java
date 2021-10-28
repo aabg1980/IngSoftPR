@@ -26,6 +26,11 @@ public class Periodista extends Persona
         this.numeroSeguidores = numeroSeguiores;
     }
 
+    public Periodista(String tipoDocumento, String numeroDocumento, String nombres, String apellidos, Date fechaNacimiento, long numeroSeguiores)
+    {
+        super(tipoDocumento, numeroDocumento, nombres, apellidos, fechaNacimiento);
+        this.numeroSeguidores = numeroSeguiores;
+    }
 
     @Override
     public String getNombres()
@@ -50,4 +55,15 @@ public class Periodista extends Persona
     public void setNumeroSeguidores(long numeroSeguidores) {
         this.numeroSeguidores = numeroSeguidores;
     }
+
+    public Periodista clonar(){
+        Periodista periodista=new Periodista();
+        try{
+            periodista=(Periodista) clone();
+        }catch (CloneNotSupportedException e){
+            e.printStackTrace();
+        }
+        return periodista;
+    }
 }
+

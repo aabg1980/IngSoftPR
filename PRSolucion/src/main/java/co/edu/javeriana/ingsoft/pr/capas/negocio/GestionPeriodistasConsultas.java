@@ -19,7 +19,6 @@ public class GestionPeriodistasConsultas implements IGestionPeriodistasConsultas
 
         System.out.println("La carga tarda: " + (timeFinal - timeInicial));
 
-
         return periodistaList;
     }
 

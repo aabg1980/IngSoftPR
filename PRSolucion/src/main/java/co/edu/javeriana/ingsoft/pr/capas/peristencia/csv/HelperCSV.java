@@ -1,38 +1,14 @@
 package co.edu.javeriana.ingsoft.pr.capas.peristencia.csv;
 
+import co.edu.javeriana.ingsoft.pr.capas.TemplateMethod.lectorArchivos;
 import co.edu.javeriana.ingsoft.pr.core.modelo.Periodista;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-public class HelperCSV {
+public class HelperCSV extends lectorArchivos {
 
     private final static String FORMATO_FECHA = "dd/MM/yyyy";
-
-    public BufferedReader abrirArchivoLectura(String path)
-    {
-        BufferedReader csvReader = null;
-        try {
-            csvReader = new BufferedReader(new FileReader(path));
-            return csvReader;
-        }
-        catch (FileNotFoundException e) {
-            e.printStackTrace();
-            throw new RuntimeException(e.getMessage());
-        }
-    }
-
-    public void cerrarArchivoLectura(BufferedReader cvsReader){
-        try {
-            cvsReader.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
     public Periodista crearPeriodistaDeCSV(String[] registroCSV) throws ParseException {
         Periodista p = new Periodista();
