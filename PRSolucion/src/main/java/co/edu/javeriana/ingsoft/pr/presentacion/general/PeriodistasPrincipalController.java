@@ -16,7 +16,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 public class PeriodistasPrincipalController {
-
+/*
     private IPeriodistasFacade facade;
 
 
@@ -60,6 +60,6 @@ public class PeriodistasPrincipalController {
     // add your data here from any source
     private ObservableList<PeriodistaView> listaPeriodistas
             = FXCollections.observableArrayList();
-
+*/
 
 }
