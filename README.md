@@ -7,7 +7,7 @@ Cristian Benítez
 Angela María Ospina
 Sebastian Martínez
 Jose Alejandro López
-Mauren Rivera Bautista
+Maurenn N. Rivera Bautista
 Juan Felipe Arias Castillo
 William Daniel Martínez Oviedo
 Jesús David Traslaviña
